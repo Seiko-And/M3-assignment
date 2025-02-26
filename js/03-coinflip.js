@@ -8,7 +8,7 @@ let choice = prompt('Enter Heads or Tails');
 // If there is input, remove the extra space and convert input to lowercase
 if (choice){
   choice = choice.trim().toLowerCase();
-  console.log('user choose ' + choice); // Testing
+  console.log('user chose ' + choice); // Testing
 
    //  Check if input is valid 
    if(choice ==='heads' || choice === 'tails'){
